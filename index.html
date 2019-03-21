@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rando Maptracker</title>
+        <script type="text/javascript" src="./jquery-3.2.1.slim.min.js"></script>
+        <script type="text/javascript" src="./leaflet.js"></script>
+        <script type="text/javascript" src="./shrine-definitions.js"></script>
+        <link rel="stylesheet" href="./leaflet.css"/>
+        <style>
+            .leaflet-container {
+                background-color: #000;
+            }
+            
+            #map-container {
+              height: 100%;
+              width: 78%;
+              display: inline-block;
+            }
+
+            #item-container {
+                width: 22%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: stretch;
+                align-content: baseline;
+            }
+
+            .flex-seperator {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: stretch;
+                align-content: baseline;
+            }
+
+            #item-container button {
+                border: 1px solid black;
+                border-radius: 4px;
+                padding: 4px 7px;
+                max-height: 2em;
+                margin: 5px;
+            }
+            
+            html, body {
+              margin: 0;
+              padding: 0;
+              height: 100%;
+              width: 100%;
+            }
+
+            body {
+                display: flex;
+            }
+
+            .checked {
+                background: green;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="item-container">
+            <div class="flex-seperator">
+                Barren: <select class="barren-areas">
+                        <option value="">Select Region...</option>
+                        <option value="Akkala">Akkala</option>
+                        <option value="Hyrule Field">Hyrule Field</option>
+                        <option value="Dueling Peaks">Dueling Peaks</option>
+                        <option value="Eldin">Eldin</option>
+                        <option value="Faron">Faron</option>
+                        <option value="Gerudo Highlands">Gerudo Highlands</option>
+                        <option value="Hateno">Hateno</option>
+                        <option value="Hebra">Hebra</option>
+                        <option value="Lake Hylia">Lake Hylia</option>
+                        <option value="Lanayru">Lanayru</option>
+                        <option value="Ridgeland">Ridgeland</option>
+                        <option value="Tabantha">Tabantha</option>
+                        <option value="Wasteland">Wasteland</option>
+                        <option value="Woodland">Woodland</option>
+                </select>
+                <select class="barren-areas">
+                        <option value="">Select Region...</option>
+                        <option value="Akkala">Akkala</option>
+                        <option value="Hyrule Field">Hyrule Field</option>
+                        <option value="Dueling Peaks">Dueling Peaks</option>
+                        <option value="Eldin">Eldin</option>
+                        <option value="Faron">Faron</option>
+                        <option value="Gerudo Highlands">Gerudo Highlands</option>
+                        <option value="Hateno">Hateno</option>
+                        <option value="Hebra">Hebra</option>
+                        <option value="Lake Hylia">Lake Hylia</option>
+                        <option value="Lanayru">Lanayru</option>
+                        <option value="Ridgeland">Ridgeland</option>
+                        <option value="Tabantha">Tabantha</option>
+                        <option value="Wasteland">Wasteland</option>
+                        <option value="Woodland">Woodland</option>
+                </select>
+            </div>
+            <div class="flex-seperator">
+                <button value="Bombs">Bombs</button>
+                <button value="Magnesis">Magnesis</button>
+                <button value="Stasis">Stasis</button>
+                <button value="Cryonis">Cryonis</button>
+                <button value="LegEquipment">Leg Equipment</button>
+                <button value="BodyEquipment">Body Equipment</button>
+                <button value="HeadEquipment">Head Equipment</button>
+                <button value="RitoSet">Rito Set</button>
+                <button value="FireproofSet">Fireproof Set</button>
+                <button value="ZoraSet">Zora Set</button>
+                <button value="GerudoSet">Gerudo Set</button>
+                <button value="OneHandedWeapons">1 Handed Weapons</button>
+                <button value="TwoHandedWeapons">2 Handed Weapons</button>
+                <button value="Spear">Spear</button>
+                <button value="Shield">Shield</button>
+                <button value="Bow">Bow</button>
+                <button value="Arrows">Arrows</button>
+                <button value="FireArrows">Fire Arrows</button>
+                <button value="IceArrows">Ice Arrows</button>
+                <button value="ShockArrows">Shock Arrows</button>
+                <button value="BombArrows">Bomb Arrows</button>
+                <button value="AncientArrows">Ancient Arrows</button>
+                <button value="LightArrows">Light Arrows</button>
+            </div>
+        </div>
+        <div id="map-container"></div>
+    </body>
+    <script>
+        var map = L.map('map-container', {
+            preferCanvas: true,
+            minZoom: -4,
+            maxZoom: 4,
+            center: [0, 0],
+            zoom: -4,
+            crs: L.CRS.Simple
+        });
+        var southWest = map.unproject([-6000, 5000], 0);
+        var northEast = map.unproject([6000, -5000], 0);
+        var bounds = new L.LatLngBounds(southWest, northEast);
+        L.imageOverlay("./BotW-Map-min.png", bounds).addTo(map);
+        map.setMaxBounds(bounds);
+        
+        var shrineIconActive = L.icon({
+            iconUrl: "./Shrine_Icon.png",
+        
+            iconSize:     [26, 27],
+            iconAnchor:   [13, 13], // point of the icon which will correspond to marker's location
+            popupAnchor:  [0, -13] // point from which the popup should open relative to the iconAnchor
+        });
+
+        var shrineIconInactive = L.icon({
+            iconUrl: "./Shrine_Icon_Inaccessible.png",
+        
+            iconSize:     [26, 27],
+            iconAnchor:   [13, 13], // point of the icon which will correspond to marker's location
+            popupAnchor:  [0, -13] // point from which the popup should open relative to the iconAnchor
+        });
+
+        var shrineIconBarren = L.icon({
+            iconUrl: "./Shrine_Icon_Barren.png",
+        
+            iconSize:     [26, 27],
+            iconAnchor:   [13, 13], // point of the icon which will correspond to marker's location
+            popupAnchor:  [0, -13] // point from which the popup should open relative to the iconAnchor
+        });
+
+        shrine_definitions.forEach((shrine)=>{
+            shrine.marker = L.marker([shrine.lat, shrine.long], {icon : shrineIconInactive})
+                .bindPopup(`<b>${shrine.name}</b>`)
+                .addTo(map);
+        });
+
+        function updateShrines() {
+            var barrenAreas = [];
+            $('select.barren-areas').each((index, elem) => barrenAreas.push($(elem).val()));
+            console.log(barrenAreas);
+            var obtainedItems = [];
+            $('#item-container button.checked').each((index, elem)=>obtainedItems.push($(elem).val()));
+            shrine_definitions.forEach(shrine => {
+                if (barrenAreas.find(a=>a==shrine.area)) {
+                    shrine.marker.setIcon(shrineIconBarren);
+                    return;
+                }
+                if (shrine.requirement_sets.length == 0) {
+                    shrine.marker.setIcon(shrineIconActive);
+                    return;
+                }
+                // Select all checks that can be reached
+                if (shrine.requirement_sets.some(set=>set.every(req=>obtainedItems.find(i=>i==req)))) {
+                    shrine.marker.setIcon(shrineIconActive);
+                } else {
+                    shrine.marker.setIcon(shrineIconInactive);
+                }
+            });
+        }
+
+        $('#item-container button').on('click', function(){
+            if ($(this).hasClass('checked')) {
+                $(this).removeClass('checked');
+                updateShrines();
+            } else {
+                $(this).addClass('checked');
+                updateShrines();
+            }
+        });
+
+        $('select.barren-areas').on('change', updateShrines);
+
+        updateShrines();
+    </script>
+</html>
