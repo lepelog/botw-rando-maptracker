@@ -1,4 +1,4 @@
-const shrine_definitions = [
+const shrine_definitions=[
   {
     "name": "Bosh Kala Shrine",
     "area": "Dueling Peaks",
@@ -193,106 +193,26 @@ const shrine_definitions = [
     "requirement_sets": [
       [
         "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
         "Bow",
         "Arrows"
       ],
       [
         "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "Bow",
-        "Arrows"
-      ],
-      [
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
-        "Bow",
-        "Arrows"
-      ],
-      [
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
         "Bow",
         "FireArrows"
       ],
       [
         "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "Bow",
-        "FireArrows"
-      ],
-      [
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
-        "Bow",
-        "FireArrows"
-      ],
-      [
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
         "Bow",
         "IceArrows"
       ],
       [
         "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "Bow",
-        "IceArrows"
-      ],
-      [
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
-        "Bow",
-        "IceArrows"
-      ],
-      [
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
         "Bow",
         "ShockArrows"
       ],
       [
         "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "Bow",
-        "ShockArrows"
-      ],
-      [
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
-        "Bow",
-        "ShockArrows"
-      ],
-      [
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
-        "Bow",
-        "BombArrows"
-      ],
-      [
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "Bow",
-        "BombArrows"
-      ],
-      [
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
         "Bow",
         "BombArrows"
       ]
@@ -373,9 +293,7 @@ const shrine_definitions = [
     "requirement_sets": [
       [
         "Magnesis",
-        "Spear",
-        "ZoraSet",
-        "BodyEquipment"
+        "Spear"
       ]
     ],
     "lat": 417,
@@ -577,6 +495,9 @@ const shrine_definitions = [
       [
         "Bow",
         "BombArrows"
+      ],
+      [
+        "TwoHandedWeapons"
       ]
     ],
     "lat": 1458,
@@ -884,19 +805,7 @@ const shrine_definitions = [
     "hint_required": false,
     "requirement_sets": [
       [
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment"
-      ],
-      [
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment"
-      ],
-      [
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment"
+        "RitoSet"
       ]
     ],
     "lat": 2206,
@@ -932,97 +841,7 @@ const shrine_definitions = [
         "Stasis",
         "Bombs",
         "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
-        "OneHandedWeapons"
-      ],
-      [
-        "Bow",
-        "BombArrows",
-        "Magnesis",
-        "Stasis",
-        "Bombs",
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "OneHandedWeapons"
-      ],
-      [
-        "Bow",
-        "BombArrows",
-        "Magnesis",
-        "Stasis",
-        "Bombs",
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
-        "OneHandedWeapons"
-      ],
-      [
-        "Bow",
-        "BombArrows",
-        "Magnesis",
-        "Stasis",
-        "Bombs",
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
         "TwoHandedWeapons"
-      ],
-      [
-        "Bow",
-        "BombArrows",
-        "Magnesis",
-        "Stasis",
-        "Bombs",
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "TwoHandedWeapons"
-      ],
-      [
-        "Bow",
-        "BombArrows",
-        "Magnesis",
-        "Stasis",
-        "Bombs",
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
-        "TwoHandedWeapons"
-      ],
-      [
-        "Bow",
-        "BombArrows",
-        "Magnesis",
-        "Stasis",
-        "Bombs",
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
-        "Spear"
-      ],
-      [
-        "Bow",
-        "BombArrows",
-        "Magnesis",
-        "Stasis",
-        "Bombs",
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "Spear"
-      ],
-      [
-        "Bow",
-        "BombArrows",
-        "Magnesis",
-        "Stasis",
-        "Bombs",
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
-        "Spear"
       ]
     ],
     "lat": 1722,
@@ -1046,7 +865,8 @@ const shrine_definitions = [
     "hint_required": false,
     "requirement_sets": [
       [
-        "Magnesis"
+        "Magnesis",
+        "Shield"
       ]
     ],
     "lat": -2820,
@@ -1067,7 +887,8 @@ const shrine_definitions = [
     "requirement_sets": [
       [
         "Magnesis",
-        "Stasis"
+        "Stasis",
+        "Shield"
       ]
     ],
     "lat": -3773,
@@ -1125,29 +946,11 @@ const shrine_definitions = [
     "hint_required": false,
     "requirement_sets": [
       [
-        "Stasis",
-        "Bow",
-        "Arrows"
+        "Magnesis"
       ],
       [
-        "Stasis",
-        "Bow",
-        "FireArrows"
-      ],
-      [
-        "Stasis",
-        "Bow",
-        "IceArrows"
-      ],
-      [
-        "Stasis",
         "Bow",
         "ShockArrows"
-      ],
-      [
-        "Stasis",
-        "Bow",
-        "BombArrows"
       ]
     ],
     "lat": -1968,
@@ -1172,9 +975,7 @@ const shrine_definitions = [
     "requirement_sets": [
       [
         "GerudoSet",
-        "HeadEquipment",
-        "BodyEquipment",
-        "LegEquipment"
+        "Shield"
       ]
     ],
     "lat": -3782,
@@ -1190,9 +991,7 @@ const shrine_definitions = [
         "BombArrows",
         "Magnesis",
         "GerudoSet",
-        "HeadEquipment",
-        "BodyEquipment",
-        "LegEquipment"
+        "Shield"
       ]
     ],
     "lat": -3127,
@@ -1204,19 +1003,7 @@ const shrine_definitions = [
     "hint_required": false,
     "requirement_sets": [
       [
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment"
-      ],
-      [
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment"
-      ],
-      [
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment"
+        "RitoSet"
       ]
     ],
     "lat": -3448,
@@ -1229,20 +1016,25 @@ const shrine_definitions = [
     "requirement_sets": [
       [
         "Bow",
-        "FireArrows"
+        "FireArrows",
+        "Shield"
       ],
       [
         "Bow",
-        "BombArrows"
+        "BombArrows",
+        "Shield"
       ],
       [
-        "OneHandedWeapons"
+        "OneHandedWeapons",
+        "Shield"
       ],
       [
-        "TwoHandedWeapons"
+        "TwoHandedWeapons",
+        "Shield"
       ],
       [
-        "Spear"
+        "Spear",
+        "Shield"
       ]
     ],
     "lat": -2800,
@@ -1281,56 +1073,14 @@ const shrine_definitions = [
     "requirement_sets": [
       [
         "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
         "OneHandedWeapons"
       ],
       [
         "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "OneHandedWeapons"
-      ],
-      [
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
-        "OneHandedWeapons"
-      ],
-      [
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
         "TwoHandedWeapons"
       ],
       [
         "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "TwoHandedWeapons"
-      ],
-      [
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
-        "TwoHandedWeapons"
-      ],
-      [
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
-        "Spear"
-      ],
-      [
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "Spear"
-      ],
-      [
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
         "Spear"
       ]
     ],
@@ -1345,112 +1095,28 @@ const shrine_definitions = [
       [
         "Magnesis",
         "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
         "Bow",
         "FireArrows"
       ],
       [
         "Magnesis",
         "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "Bow",
-        "FireArrows"
-      ],
-      [
-        "Magnesis",
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
-        "Bow",
-        "FireArrows"
-      ],
-      [
-        "Magnesis",
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
         "Bow",
         "BombArrows"
       ],
       [
         "Magnesis",
         "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "Bow",
-        "BombArrows"
-      ],
-      [
-        "Magnesis",
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
-        "Bow",
-        "BombArrows"
-      ],
-      [
-        "Magnesis",
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
         "OneHandedWeapons"
       ],
       [
         "Magnesis",
         "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "OneHandedWeapons"
-      ],
-      [
-        "Magnesis",
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
-        "OneHandedWeapons"
-      ],
-      [
-        "Magnesis",
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
         "TwoHandedWeapons"
       ],
       [
         "Magnesis",
         "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "TwoHandedWeapons"
-      ],
-      [
-        "Magnesis",
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
-        "TwoHandedWeapons"
-      ],
-      [
-        "Magnesis",
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
-        "Spear"
-      ],
-      [
-        "Magnesis",
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "Spear"
-      ],
-      [
-        "Magnesis",
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
         "Spear"
       ]
     ],
@@ -1600,12 +1266,78 @@ const shrine_definitions = [
     "hint_required": false,
     "requirement_sets": [
       [
+        "Bow",
+        "Arrows",
         "OneHandedWeapons"
       ],
       [
+        "Bow",
+        "FireArrows",
+        "OneHandedWeapons"
+      ],
+      [
+        "Bow",
+        "IceArrows",
+        "OneHandedWeapons"
+      ],
+      [
+        "Bow",
+        "ShockArrows",
+        "OneHandedWeapons"
+      ],
+      [
+        "Bow",
+        "BombArrows",
+        "OneHandedWeapons"
+      ],
+      [
+        "Bow",
+        "Arrows",
         "TwoHandedWeapons"
       ],
       [
+        "Bow",
+        "FireArrows",
+        "TwoHandedWeapons"
+      ],
+      [
+        "Bow",
+        "IceArrows",
+        "TwoHandedWeapons"
+      ],
+      [
+        "Bow",
+        "ShockArrows",
+        "TwoHandedWeapons"
+      ],
+      [
+        "Bow",
+        "BombArrows",
+        "TwoHandedWeapons"
+      ],
+      [
+        "Bow",
+        "Arrows",
+        "Spear"
+      ],
+      [
+        "Bow",
+        "FireArrows",
+        "Spear"
+      ],
+      [
+        "Bow",
+        "IceArrows",
+        "Spear"
+      ],
+      [
+        "Bow",
+        "ShockArrows",
+        "Spear"
+      ],
+      [
+        "Bow",
+        "BombArrows",
         "Spear"
       ]
     ],
@@ -1616,7 +1348,46 @@ const shrine_definitions = [
     "name": "Ze Kasho Shrine",
     "area": "Akkala",
     "hint_required": false,
-    "requirement_sets": [],
+    "requirement_sets": [
+      [
+        "OneHandedWeapons"
+      ],
+      [
+        "TwoHandedWeapons"
+      ],
+      [
+        "Spear"
+      ],
+      [
+        "Shield"
+      ],
+      [
+        "Bombs"
+      ],
+      [
+        "Stasis"
+      ],
+      [
+        "Bow",
+        "Arrows"
+      ],
+      [
+        "Bow",
+        "FireArrows"
+      ],
+      [
+        "Bow",
+        "IceArrows"
+      ],
+      [
+        "Bow",
+        "ShockArrows"
+      ],
+      [
+        "Bow",
+        "BombArrows"
+      ]
+    ],
     "lat": 1668,
     "long": 3027
   },
@@ -1635,18 +1406,7 @@ const shrine_definitions = [
     "requirement_sets": [
       [
         "Stasis",
-        "FireproofSet",
-        "HeadEquipment"
-      ],
-      [
-        "Stasis",
-        "FireproofSet",
-        "BodyEquipment"
-      ],
-      [
-        "Stasis",
-        "FireproofSet",
-        "LegEquipment"
+        "FireproofSet"
       ]
     ],
     "lat": 2328,
@@ -1666,16 +1426,7 @@ const shrine_definitions = [
     "hint_required": false,
     "requirement_sets": [
       [
-        "FireproofSet",
-        "HeadEquipment"
-      ],
-      [
-        "FireproofSet",
-        "BodyEquipment"
-      ],
-      [
-        "FireproofSet",
-        "LegEquipment"
+        "FireproofSet"
       ]
     ],
     "lat": 2040,
@@ -1703,96 +1454,21 @@ const shrine_definitions = [
         "Magnesis",
         "Bow",
         "Arrows",
-        "FireproofSet",
-        "HeadEquipment"
-      ],
-      [
-        "Bombs",
-        "Magnesis",
-        "Bow",
-        "Arrows",
-        "FireproofSet",
-        "BodyEquipment"
-      ],
-      [
-        "Bombs",
-        "Magnesis",
-        "Bow",
-        "Arrows",
-        "FireproofSet",
-        "LegEquipment"
+        "FireproofSet"
       ],
       [
         "Bombs",
         "Magnesis",
         "Bow",
         "FireArrows",
-        "FireproofSet",
-        "HeadEquipment"
-      ],
-      [
-        "Bombs",
-        "Magnesis",
-        "Bow",
-        "FireArrows",
-        "FireproofSet",
-        "BodyEquipment"
-      ],
-      [
-        "Bombs",
-        "Magnesis",
-        "Bow",
-        "FireArrows",
-        "FireproofSet",
-        "LegEquipment"
+        "FireproofSet"
       ],
       [
         "Magnesis",
         "Bow",
         "Arrows",
         "BombArrows",
-        "FireproofSet",
-        "HeadEquipment"
-      ],
-      [
-        "Magnesis",
-        "Bow",
-        "Arrows",
-        "BombArrows",
-        "FireproofSet",
-        "BodyEquipment"
-      ],
-      [
-        "Magnesis",
-        "Bow",
-        "Arrows",
-        "BombArrows",
-        "FireproofSet",
-        "LegEquipment"
-      ],
-      [
-        "Magnesis",
-        "Bow",
-        "FireArrows",
-        "BombArrows",
-        "FireproofSet",
-        "HeadEquipment"
-      ],
-      [
-        "Magnesis",
-        "Bow",
-        "FireArrows",
-        "BombArrows",
-        "FireproofSet",
-        "BodyEquipment"
-      ],
-      [
-        "Magnesis",
-        "Bow",
-        "FireArrows",
-        "BombArrows",
-        "FireproofSet",
-        "LegEquipment"
+        "FireproofSet"
       ]
     ],
     "lat": 1517,
@@ -1830,56 +1506,17 @@ const shrine_definitions = [
       [
         "Bow",
         "Arrows",
-        "FireproofSet",
-        "HeadEquipment"
-      ],
-      [
-        "Bow",
-        "Arrows",
-        "FireproofSet",
-        "BodyEquipment"
-      ],
-      [
-        "Bow",
-        "Arrows",
-        "FireproofSet",
-        "LegEquipment"
+        "FireproofSet"
       ],
       [
         "Bow",
         "FireArrows",
-        "FireproofSet",
-        "HeadEquipment"
-      ],
-      [
-        "Bow",
-        "FireArrows",
-        "FireproofSet",
-        "BodyEquipment"
-      ],
-      [
-        "Bow",
-        "FireArrows",
-        "FireproofSet",
-        "LegEquipment"
+        "FireproofSet"
       ],
       [
         "Bow",
         "BombArrows",
-        "FireproofSet",
-        "HeadEquipment"
-      ],
-      [
-        "Bow",
-        "BombArrows",
-        "FireproofSet",
-        "BodyEquipment"
-      ],
-      [
-        "Bow",
-        "BombArrows",
-        "FireproofSet",
-        "LegEquipment"
+        "FireproofSet"
       ]
     ],
     "lat": 2562,
@@ -1895,120 +1532,35 @@ const shrine_definitions = [
         "Stasis",
         "Bow",
         "Arrows",
-        "FireproofSet",
-        "HeadEquipment"
-      ],
-      [
-        "Magnesis",
-        "Stasis",
-        "Bow",
-        "Arrows",
-        "FireproofSet",
-        "BodyEquipment"
-      ],
-      [
-        "Magnesis",
-        "Stasis",
-        "Bow",
-        "Arrows",
-        "FireproofSet",
-        "LegEquipment"
+        "FireproofSet"
       ],
       [
         "Magnesis",
         "Stasis",
         "Bow",
         "FireArrows",
-        "FireproofSet",
-        "HeadEquipment"
-      ],
-      [
-        "Magnesis",
-        "Stasis",
-        "Bow",
-        "FireArrows",
-        "FireproofSet",
-        "BodyEquipment"
-      ],
-      [
-        "Magnesis",
-        "Stasis",
-        "Bow",
-        "FireArrows",
-        "FireproofSet",
-        "LegEquipment"
+        "FireproofSet"
       ],
       [
         "Magnesis",
         "Stasis",
         "Bow",
         "IceArrows",
-        "FireproofSet",
-        "HeadEquipment"
-      ],
-      [
-        "Magnesis",
-        "Stasis",
-        "Bow",
-        "IceArrows",
-        "FireproofSet",
-        "BodyEquipment"
-      ],
-      [
-        "Magnesis",
-        "Stasis",
-        "Bow",
-        "IceArrows",
-        "FireproofSet",
-        "LegEquipment"
+        "FireproofSet"
       ],
       [
         "Magnesis",
         "Stasis",
         "Bow",
         "ShockArrows",
-        "FireproofSet",
-        "BodyEquipment"
-      ],
-      [
-        "Magnesis",
-        "Stasis",
-        "Bow",
-        "ShockArrows",
-        "FireproofSet",
-        "HeadEquipment"
-      ],
-      [
-        "Magnesis",
-        "Stasis",
-        "Bow",
-        "ShockArrows",
-        "FireproofSet",
-        "LegEquipment"
+        "FireproofSet"
       ],
       [
         "Magnesis",
         "Stasis",
         "Bow",
         "BombArrows",
-        "FireproofSet",
-        "HeadEquipment"
-      ],
-      [
-        "Magnesis",
-        "Stasis",
-        "Bow",
-        "BombArrows",
-        "FireproofSet",
-        "BodyEquipment"
-      ],
-      [
-        "Magnesis",
-        "Stasis",
-        "Bow",
-        "BombArrows",
-        "FireproofSet",
-        "LegEquipment"
+        "FireproofSet"
       ]
     ],
     "lat": 3118,
@@ -2201,121 +1753,31 @@ const shrine_definitions = [
         "Stasis",
         "Bow",
         "Arrows",
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment"
-      ],
-      [
-        "Stasis",
-        "Bow",
-        "Arrows",
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment"
-      ],
-      [
-        "Stasis",
-        "Bow",
-        "Arrows",
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment"
+        "RitoSet"
       ],
       [
         "Stasis",
         "Bow",
         "FireArrows",
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment"
-      ],
-      [
-        "Stasis",
-        "Bow",
-        "FireArrows",
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment"
-      ],
-      [
-        "Stasis",
-        "Bow",
-        "FireArrows",
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment"
+        "RitoSet"
       ],
       [
         "Stasis",
         "Bow",
         "IceArrows",
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment"
-      ],
-      [
-        "Stasis",
-        "Bow",
-        "IceArrows",
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment"
-      ],
-      [
-        "Stasis",
-        "Bow",
-        "IceArrows",
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment"
+        "RitoSet"
       ],
       [
         "Stasis",
         "Bow",
         "ShockArrows",
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment"
-      ],
-      [
-        "Stasis",
-        "Bow",
-        "ShockArrows",
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment"
-      ],
-      [
-        "Stasis",
-        "Bow",
-        "ShockArrows",
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment"
+        "RitoSet"
       ],
       [
         "Stasis",
         "Bow",
         "BombArrows",
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment"
-      ],
-      [
-        "Stasis",
-        "Bow",
-        "BombArrows",
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment"
-      ],
-      [
-        "Stasis",
-        "Bow",
-        "BombArrows",
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment"
+        "RitoSet"
       ]
     ],
     "lat": 2255,
@@ -2328,56 +1790,14 @@ const shrine_definitions = [
     "requirement_sets": [
       [
         "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
         "OneHandedWeapons"
       ],
       [
         "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "OneHandedWeapons"
-      ],
-      [
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
-        "OneHandedWeapons"
-      ],
-      [
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
         "TwoHandedWeapons"
       ],
       [
         "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "TwoHandedWeapons"
-      ],
-      [
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
-        "TwoHandedWeapons"
-      ],
-      [
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
-        "Spear"
-      ],
-      [
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "Spear"
-      ],
-      [
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
         "Spear"
       ]
     ],
@@ -2391,56 +1811,14 @@ const shrine_definitions = [
     "requirement_sets": [
       [
         "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
         "OneHandedWeapons"
       ],
       [
         "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "OneHandedWeapons"
-      ],
-      [
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
-        "OneHandedWeapons"
-      ],
-      [
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
         "TwoHandedWeapons"
       ],
       [
         "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "TwoHandedWeapons"
-      ],
-      [
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
-        "TwoHandedWeapons"
-      ],
-      [
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
-        "Spear"
-      ],
-      [
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "Spear"
-      ],
-      [
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
         "Spear"
       ]
     ],
@@ -2453,19 +1831,7 @@ const shrine_definitions = [
     "hint_required": false,
     "requirement_sets": [
       [
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment"
-      ],
-      [
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment"
-      ],
-      [
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment"
+        "RitoSet"
       ]
     ],
     "lat": 2060,
@@ -2481,153 +1847,78 @@ const shrine_definitions = [
         "Magnesis",
         "Bow",
         "Arrows",
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment"
+        "RitoSet"
       ],
       [
         "Cryonis",
         "Magnesis",
+        "Bow",
+        "FireArrows",
+        "RitoSet"
+      ],
+      [
+        "Cryonis",
+        "Magnesis",
+        "Bow",
+        "BombArrows",
+        "RitoSet"
+      ],
+      [
+        "Cryonis",
+        "Magnesis",
+        "OneHandedWeapons",
+        "RitoSet"
+      ],
+      [
+        "Cryonis",
+        "Magnesis",
+        "TwoHandedWeapons",
+        "RitoSet"
+      ],
+      [
+        "Cryonis",
+        "Magnesis",
+        "Spear",
+        "RitoSet"
+      ],
+      [
+        "Cryonis",
+        "Stasis",
         "Bow",
         "Arrows",
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment"
+        "RitoSet"
       ],
       [
         "Cryonis",
-        "Magnesis",
-        "Bow",
-        "Arrows",
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment"
-      ],
-      [
-        "Cryonis",
-        "Magnesis",
+        "Stasis",
         "Bow",
         "FireArrows",
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment"
+        "RitoSet"
       ],
       [
         "Cryonis",
-        "Magnesis",
-        "Bow",
-        "FireArrows",
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment"
-      ],
-      [
-        "Cryonis",
-        "Magnesis",
-        "Bow",
-        "FireArrows",
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment"
-      ],
-      [
-        "Cryonis",
-        "Magnesis",
+        "Stasis",
         "Bow",
         "BombArrows",
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment"
+        "RitoSet"
       ],
       [
         "Cryonis",
-        "Magnesis",
-        "Bow",
-        "BombArrows",
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment"
-      ],
-      [
-        "Cryonis",
-        "Magnesis",
-        "Bow",
-        "BombArrows",
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment"
-      ],
-      [
-        "Cryonis",
-        "Magnesis",
+        "Stasis",
         "OneHandedWeapons",
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment"
+        "RitoSet"
       ],
       [
         "Cryonis",
-        "Magnesis",
-        "OneHandedWeapons",
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment"
-      ],
-      [
-        "Cryonis",
-        "Magnesis",
-        "OneHandedWeapons",
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment"
-      ],
-      [
-        "Cryonis",
-        "Magnesis",
+        "Stasis",
         "TwoHandedWeapons",
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment"
+        "RitoSet"
       ],
       [
         "Cryonis",
-        "Magnesis",
-        "TwoHandedWeapons",
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment"
-      ],
-      [
-        "Cryonis",
-        "Magnesis",
-        "TwoHandedWeapons",
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment"
-      ],
-      [
-        "Cryonis",
-        "Magnesis",
+        "Stasis",
         "Spear",
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment"
-      ],
-      [
-        "Cryonis",
-        "Magnesis",
-        "Spear",
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment"
-      ],
-      [
-        "Cryonis",
-        "Magnesis",
-        "Spear",
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment"
+        "RitoSet"
       ]
     ],
     "lat": 2508,
@@ -2640,56 +1931,14 @@ const shrine_definitions = [
     "requirement_sets": [
       [
         "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
         "OneHandedWeapons"
       ],
       [
         "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "OneHandedWeapons"
-      ],
-      [
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
-        "OneHandedWeapons"
-      ],
-      [
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
         "TwoHandedWeapons"
       ],
       [
         "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "TwoHandedWeapons"
-      ],
-      [
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
-        "TwoHandedWeapons"
-      ],
-      [
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
-        "Spear"
-      ],
-      [
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "Spear"
-      ],
-      [
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
         "Spear"
       ]
     ],
@@ -2702,163 +1951,7 @@ const shrine_definitions = [
     "hint_required": false,
     "requirement_sets": [
       [
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
-        "Bow",
-        "Arrows"
-      ],
-      [
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "Bow",
-        "Arrows"
-      ],
-      [
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
-        "Bow",
-        "Arrows"
-      ],
-      [
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
-        "Bow",
-        "FireArrows"
-      ],
-      [
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "Bow",
-        "FireArrows"
-      ],
-      [
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
-        "Bow",
-        "FireArrows"
-      ],
-      [
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
-        "Bow",
-        "IceArrows"
-      ],
-      [
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "Bow",
-        "IceArrows"
-      ],
-      [
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
-        "Bow",
-        "IceArrows"
-      ],
-      [
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
-        "Bow",
-        "ShockArrows"
-      ],
-      [
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "Bow",
-        "ShockArrows"
-      ],
-      [
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
-        "Bow",
-        "ShockArrows"
-      ],
-      [
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
-        "Bow",
-        "BombArrows"
-      ],
-      [
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "Bow",
-        "BombArrows"
-      ],
-      [
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
-        "Bow",
-        "BombArrows"
-      ],
-      [
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
-        "OneHandedWeapons"
-      ],
-      [
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "OneHandedWeapons"
-      ],
-      [
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
-        "OneHandedWeapons"
-      ],
-      [
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
-        "TwoHandedWeapons"
-      ],
-      [
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "TwoHandedWeapons"
-      ],
-      [
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
-        "TwoHandedWeapons"
-      ],
-      [
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
-        "Spear"
-      ],
-      [
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "Spear"
-      ],
-      [
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
-        "Spear"
+        "RitoSet"
       ]
     ],
     "lat": 3535,
@@ -2871,39 +1964,11 @@ const shrine_definitions = [
     "requirement_sets": [
       [
         "Magnesis",
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment"
-      ],
-      [
-        "Magnesis",
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment"
-      ],
-      [
-        "Magnesis",
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment"
+        "RitoSet"
       ],
       [
         "Stasis",
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment"
-      ],
-      [
-        "Stasis",
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment"
-      ],
-      [
-        "Stasis",
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment"
+        "RitoSet"
       ]
     ],
     "lat": 2554,
@@ -2917,158 +1982,40 @@ const shrine_definitions = [
       [
         "Bombs",
         "Magnesis",
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment"
-      ],
-      [
-        "Bombs",
-        "Magnesis",
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment"
-      ],
-      [
-        "Bombs",
-        "Magnesis",
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment"
+        "RitoSet"
       ],
       [
         "Magnesis",
         "Bow",
         "Arrows",
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment"
-      ],
-      [
-        "Magnesis",
-        "Bow",
-        "Arrows",
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment"
-      ],
-      [
-        "Magnesis",
-        "Bow",
-        "Arrows",
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment"
+        "RitoSet"
       ],
       [
         "Magnesis",
         "Bow",
         "FireArrows",
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment"
-      ],
-      [
-        "Magnesis",
-        "Bow",
-        "FireArrows",
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment"
-      ],
-      [
-        "Magnesis",
-        "Bow",
-        "FireArrows",
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment"
+        "RitoSet"
       ],
       [
         "Magnesis",
         "Bow",
         "BombArrows",
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment"
-      ],
-      [
-        "Magnesis",
-        "Bow",
-        "BombArrows",
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment"
-      ],
-      [
-        "Magnesis",
-        "Bow",
-        "BombArrows",
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment"
+        "RitoSet"
       ],
       [
         "Magnesis",
         "OneHandedWeapons",
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment"
-      ],
-      [
-        "Magnesis",
-        "OneHandedWeapons",
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment"
-      ],
-      [
-        "Magnesis",
-        "OneHandedWeapons",
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment"
+        "RitoSet"
       ],
       [
         "Magnesis",
         "TwoHandedWeapons",
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment"
-      ],
-      [
-        "Magnesis",
-        "TwoHandedWeapons",
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment"
-      ],
-      [
-        "Magnesis",
-        "TwoHandedWeapons",
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment"
+        "RitoSet"
       ],
       [
         "Magnesis",
         "Spear",
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment"
-      ],
-      [
-        "Magnesis",
-        "Spear",
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment"
-      ],
-      [
-        "Magnesis",
-        "Spear",
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment"
+        "RitoSet"
       ]
     ],
     "lat": 3225,
@@ -3082,23 +2029,17 @@ const shrine_definitions = [
       [
         "Magnesis",
         "Stasis",
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment"
+        "RitoSet"
       ],
       [
         "Magnesis",
         "Stasis",
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment"
+        "RitoSet"
       ],
       [
         "Magnesis",
         "Stasis",
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment"
+        "RitoSet"
       ]
     ],
     "lat": 3758,
@@ -3111,83 +2052,21 @@ const shrine_definitions = [
     "requirement_sets": [
       [
         "Magnesis",
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment"
-      ],
-      [
-        "Magnesis",
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment"
-      ],
-      [
-        "Magnesis",
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment"
+        "RitoSet"
       ],
       [
         "Stasis",
         "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
         "OneHandedWeapons"
       ],
       [
         "Stasis",
         "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "OneHandedWeapons"
-      ],
-      [
-        "Stasis",
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
-        "OneHandedWeapons"
-      ],
-      [
-        "Stasis",
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
         "TwoHandedWeapons"
       ],
       [
         "Stasis",
         "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "TwoHandedWeapons"
-      ],
-      [
-        "Stasis",
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
-        "TwoHandedWeapons"
-      ],
-      [
-        "Stasis",
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment",
-        "Spear"
-      ],
-      [
-        "Stasis",
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment",
-        "Spear"
-      ],
-      [
-        "Stasis",
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment",
         "Spear"
       ]
     ],
@@ -3201,21 +2080,7 @@ const shrine_definitions = [
     "requirement_sets": [
       [
         "Cryonis",
-        "RitoSet",
-        "HeadEquipment",
-        "BodyEquipment"
-      ],
-      [
-        "Cryonis",
-        "RitoSet",
-        "HeadEquipment",
-        "LegEquipment"
-      ],
-      [
-        "Cryonis",
-        "RitoSet",
-        "BodyEquipment",
-        "LegEquipment"
+        "RitoSet"
       ]
     ],
     "lat": 3712,
@@ -3352,6 +2217,11 @@ const shrine_definitions = [
         "Stasis",
         "Bombs",
         "Magnesis"
+      ],
+      [
+        "Stasis",
+        "Magnesis",
+        "TwoHandedWeapons"
       ]
     ],
     "lat": -3615,
@@ -3446,6 +2316,10 @@ const shrine_definitions = [
         "Magnesis",
         "Bow",
         "BombArrows"
+      ],
+      [
+        "Magnesis",
+        "TwoHandedWeapons"
       ]
     ],
     "lat": -3526,
@@ -3493,15 +2367,6 @@ const shrine_definitions = [
       [
         "Bow",
         "BombArrows"
-      ],
-      [
-        "OneHandedWeapons"
-      ],
-      [
-        "TwoHandedWeapons"
-      ],
-      [
-        "Spear"
       ]
     ],
     "lat": -2329,
@@ -3561,63 +2426,54 @@ const shrine_definitions = [
     "hint_required": false,
     "requirement_sets": [
       [
-        "Magnesis",
         "Stasis",
         "Bow",
         "Arrows",
         "OneHandedWeapons"
       ],
       [
-        "Magnesis",
         "Stasis",
         "Bow",
         "Arrows",
         "TwoHandedWeapons"
       ],
       [
-        "Magnesis",
         "Stasis",
         "Bow",
         "Arrows",
         "Spear"
       ],
       [
-        "Magnesis",
         "Stasis",
         "Bow",
         "FireArrows",
         "OneHandedWeapons"
       ],
       [
-        "Magnesis",
         "Stasis",
         "Bow",
         "FireArrows",
         "TwoHandedWeapons"
       ],
       [
-        "Magnesis",
         "Stasis",
         "Bow",
         "FireArrows",
         "Spear"
       ],
       [
-        "Magnesis",
         "Stasis",
         "Bow",
         "BombArrows",
         "OneHandedWeapons"
       ],
       [
-        "Magnesis",
         "Stasis",
         "Bow",
         "BombArrows",
         "TwoHandedWeapons"
       ],
       [
-        "Magnesis",
         "Stasis",
         "Bow",
         "BombArrows",
@@ -3689,16 +2545,19 @@ const shrine_definitions = [
     "hint_required": false,
     "requirement_sets": [
       [
+        "TwoHandedWeapons"
+      ],
+      [
         "Bombs",
         "OneHandedWeapons"
       ],
       [
         "Bombs",
-        "TwoHandedWeapons"
+        "Spear"
       ],
       [
-        "Bombs",
-        "Spear"
+        "Bow",
+        "BombArrows"
       ]
     ],
     "lat": 624,
