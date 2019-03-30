@@ -163,10 +163,23 @@
             iconAnchor:   [13, 13], // point of the icon which will correspond to marker's location
             popupAnchor:  [0, -13] // point from which the popup should open relative to the iconAnchor
         });
+        
+        function shrineToPopup(shrine) {
+            var text = `<b>${shrine.name}</b>`;
+            if (shrine.blessing) {
+                text += "(blessing)";
+            } else {
+                text += `<br/>${shrine.trial}`;
+            }
+            if (shrine.quest) {
+                text += `<br/><i>${shrine.quest}<i/>`;
+            }
+            return text;
+        }
 
         shrine_definitions.forEach((shrine)=>{
             shrine.marker = L.marker([shrine.lat, shrine.long], {icon : shrineIconInactive})
-                .bindPopup(`<b>${shrine.name}</b>`)
+                .bindPopup(shrineToPopup(shrine))
                 .addTo(map);
         });
 

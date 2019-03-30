@@ -1,7 +1,10 @@
 const shrine_definitions=[
   {
     "name": "Bosh Kala Shrine",
+    "trial": "The Wind Guides You",
+    "quest": null,
     "area": "Dueling Peaks",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [],
     "lat": -1659,
@@ -9,7 +12,10 @@ const shrine_definitions=[
   },
   {
     "name": "Ha Dahamar Shrine",
+    "trial": "The Water Guides",
+    "quest": null,
     "area": "Dueling Peaks",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -21,7 +27,10 @@ const shrine_definitions=[
   },
   {
     "name": "Hila Rao Shrine",
+    "trial": "Drifting",
+    "quest": "Watch Out for the Flowers",
     "area": "Dueling Peaks",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -59,7 +68,10 @@ const shrine_definitions=[
   },
   {
     "name": "Lakna Rokee Shrine",
+    "trial": "Lakna Rokee's Blessing",
+    "quest": "The Stolen Heirloom",
     "area": "Dueling Peaks",
+    "blessing": true,
     "hint_required": true,
     "requirement_sets": [
       [
@@ -97,7 +109,10 @@ const shrine_definitions=[
   },
   {
     "name": "Ree Dahee Shrine",
+    "trial": "Timing is Critical",
+    "quest": null,
     "area": "Dueling Peaks",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [],
     "lat": -1844,
@@ -105,7 +120,10 @@ const shrine_definitions=[
   },
   {
     "name": "Shee Vaneer Shrine",
+    "trial": "Twin Memories",
+    "quest": null,
     "area": "Dueling Peaks",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [],
     "lat": -1938,
@@ -113,7 +131,10 @@ const shrine_definitions=[
   },
   {
     "name": "Shee Venath Shrine",
+    "trial": "Twin Memories",
+    "quest": null,
     "area": "Dueling Peaks",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [],
     "lat": -1850,
@@ -121,7 +142,10 @@ const shrine_definitions=[
   },
   {
     "name": "Ta'loh Naeg Shrine",
+    "trial": "Ta'loh Naeg's Teaching",
+    "quest": null,
     "area": "Dueling Peaks",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -142,7 +166,10 @@ const shrine_definitions=[
   },
   {
     "name": "Toto Sah Shrine",
+    "trial": "Toto Sah Apparatus",
+    "quest": null,
     "area": "Dueling Peaks",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -158,7 +185,10 @@ const shrine_definitions=[
   },
   {
     "name": "Chaas Qeta Shrine",
+    "trial": "A Major Test of Strength",
+    "quest": null,
     "area": "Hateno",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -176,7 +206,10 @@ const shrine_definitions=[
   },
   {
     "name": "Dow Na'eh Shrine",
+    "trial": "Three Boxes",
+    "quest": null,
     "area": "Hateno",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -188,7 +221,10 @@ const shrine_definitions=[
   },
   {
     "name": "Jitan Sa'mi Shrine",
+    "trial": "Jitan Sa'mi's Blessing",
+    "quest": "The Spring of Wisdom",
     "area": "Hateno",
+    "blessing": true,
     "hint_required": true,
     "requirement_sets": [
       [
@@ -222,7 +258,10 @@ const shrine_definitions=[
   },
   {
     "name": "Kam Urog Shrine",
+    "trial": "Trial of Passage",
+    "quest": "The Cursed Statue",
     "area": "Hateno",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -251,7 +290,10 @@ const shrine_definitions=[
   },
   {
     "name": "Mezza Lo Shrine",
+    "trial": "Ancient Trifecta",
+    "quest": "The Crowned Beast",
     "area": "Hateno",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -264,7 +306,10 @@ const shrine_definitions=[
   },
   {
     "name": "Myahm Agana Shrine",
+    "trial": "Myahm Agana Apparatus",
+    "quest": null,
     "area": "Hateno",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [],
     "lat": -2216,
@@ -272,7 +317,10 @@ const shrine_definitions=[
   },
   {
     "name": "Tahno O'ah Shrine",
+    "trial": "Tahno O'ah's Blessing",
+    "quest": "Secret of the Cedars",
     "area": "Hateno",
+    "blessing": true,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -288,7 +336,10 @@ const shrine_definitions=[
   },
   {
     "name": "Dagah Keek Shrine",
+    "trial": "Dagah Keek's Blessing",
+    "quest": "The Ceremonial Song",
     "area": "Lanayru",
+    "blessing": true,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -301,7 +352,10 @@ const shrine_definitions=[
   },
   {
     "name": "Daka Tuss Shrine",
+    "trial": "Sunken Scoop",
+    "quest": null,
     "area": "Lanayru",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -313,7 +367,10 @@ const shrine_definitions=[
   },
   {
     "name": "Kah Mael Shrine",
+    "trial": "Drop and Rise",
+    "quest": null,
     "area": "Lanayru",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -340,7 +397,10 @@ const shrine_definitions=[
   },
   {
     "name": "Kaya Wan Shrine",
+    "trial": "Shields from Water",
+    "quest": null,
     "area": "Lanayru",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -352,7 +412,10 @@ const shrine_definitions=[
   },
   {
     "name": "Ne'ez Yohma Shrine",
+    "trial": "Pushing Power",
+    "quest": null,
     "area": "Lanayru",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -406,7 +469,10 @@ const shrine_definitions=[
   },
   {
     "name": "Rucco Maag Shrine",
+    "trial": "Five Flames",
+    "quest": null,
     "area": "Lanayru",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -444,7 +510,10 @@ const shrine_definitions=[
   },
   {
     "name": "Shai Yota Shrine",
+    "trial": "Shai Yota's Blessing",
+    "quest": "Master of the Wind",
     "area": "Lanayru",
+    "blessing": true,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -460,7 +529,10 @@ const shrine_definitions=[
   },
   {
     "name": "Sheh Rata Shrine",
+    "trial": "Speed of Light",
+    "quest": null,
     "area": "Lanayru",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [],
     "lat": 377,
@@ -468,7 +540,10 @@ const shrine_definitions=[
   },
   {
     "name": "Soh Kofi Shrine",
+    "trial": "A Minor Test of Strength",
+    "quest": null,
     "area": "Lanayru",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -486,7 +561,10 @@ const shrine_definitions=[
   },
   {
     "name": "Maag No'rah Shrine",
+    "trial": "Maag No'rah's Blessing",
+    "quest": null,
     "area": "Ridgeland",
+    "blessing": true,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -504,26 +582,11 @@ const shrine_definitions=[
     "long": -1940
   },
   {
-    "name": "Mijah Rokee Shrine",
-    "area": "Ridgeland",
-    "hint_required": true,
-    "requirement_sets": [
-      [
-        "OneHandedWeapons"
-      ],
-      [
-        "TwoHandedWeapons"
-      ],
-      [
-        "Spear"
-      ]
-    ],
-    "lat": -226,
-    "long": -2734
-  },
-  {
     "name": "Mogg Latan Shrine",
+    "trial": "Synced Swing",
+    "quest": null,
     "area": "Ridgeland",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -557,7 +620,10 @@ const shrine_definitions=[
   },
   {
     "name": "Shae Loya Shrine",
+    "trial": "Aim for the Moment",
+    "quest": null,
     "area": "Ridgeland",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -591,7 +657,10 @@ const shrine_definitions=[
   },
   {
     "name": "Sheem Dagoze Shrine",
+    "trial": "Moving in Parallel",
+    "quest": "The Two Rings",
     "area": "Ridgeland",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -620,7 +689,10 @@ const shrine_definitions=[
   },
   {
     "name": "Toh Yahsa Shrine",
+    "trial": "Buried Secrets",
+    "quest": "Trial of Thunder",
     "area": "Ridgeland",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -668,7 +740,10 @@ const shrine_definitions=[
   },
   {
     "name": "Zalta Wa Shrine",
+    "trial": "Two Orbs to Guide You",
+    "quest": null,
     "area": "Ridgeland",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -709,7 +784,10 @@ const shrine_definitions=[
   },
   {
     "name": "Akh Va'quot Shrine",
+    "trial": "Windmills",
+    "quest": null,
     "area": "Tabantha",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -750,7 +828,10 @@ const shrine_definitions=[
   },
   {
     "name": "Bareeda Naag Shrine",
+    "trial": "Cannon",
+    "quest": "The Ancient Rito Song",
     "area": "Tabantha",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -781,7 +862,10 @@ const shrine_definitions=[
   },
   {
     "name": "Kah Okeo Shrine",
+    "trial": "Wind Guide",
+    "quest": null,
     "area": "Tabantha",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -801,7 +885,10 @@ const shrine_definitions=[
   },
   {
     "name": "Sha Warvo Shrine",
+    "trial": "Path of Hidden Winds",
+    "quest": null,
     "area": "Tabantha",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -813,7 +900,10 @@ const shrine_definitions=[
   },
   {
     "name": "Tena Ko'sah Shrine",
+    "trial": "A Major Test of Strength",
+    "quest": null,
     "area": "Tabantha",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -831,7 +921,10 @@ const shrine_definitions=[
   },
   {
     "name": "Voo Lota Shrine",
+    "trial": "The Winding Route",
+    "quest": "Recital at Warbler's Nest",
     "area": "Tabantha",
+    "blessing": false,
     "hint_required": true,
     "requirement_sets": [
       [
@@ -849,7 +942,10 @@ const shrine_definitions=[
   },
   {
     "name": "Dako Tah Shrine",
+    "trial": "Electric Path",
+    "quest": "The Eye of the Sandstorm",
     "area": "Wasteland",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -861,7 +957,10 @@ const shrine_definitions=[
   },
   {
     "name": "Daqo Chisay Shrine",
+    "trial": "The Whole Picture",
+    "quest": null,
     "area": "Wasteland",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -874,7 +973,10 @@ const shrine_definitions=[
   },
   {
     "name": "Dila Maag Shrine",
+    "trial": "Dila Maag's Blessing",
+    "quest": "The Desert Labyrinth",
     "area": "Wasteland",
+    "blessing": true,
     "hint_required": false,
     "requirement_sets": [],
     "lat": -3465,
@@ -882,7 +984,10 @@ const shrine_definitions=[
   },
   {
     "name": "Hawa Koth Shrine",
+    "trial": "The Current Solution",
+    "quest": null,
     "area": "Wasteland",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -896,7 +1001,10 @@ const shrine_definitions=[
   },
   {
     "name": "Jee Noh Shrine",
+    "trial": "On the Move",
+    "quest": null,
     "area": "Wasteland",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -908,7 +1016,10 @@ const shrine_definitions=[
   },
   {
     "name": "Kay Noh Shrine",
+    "trial": "Power of Electricity",
+    "quest": null,
     "area": "Wasteland",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -942,7 +1053,10 @@ const shrine_definitions=[
   },
   {
     "name": "Kema Zoos Shrine",
+    "trial": "A Delayed Puzzle",
+    "quest": "The Silent Swordswomen",
     "area": "Wasteland",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -958,7 +1072,10 @@ const shrine_definitions=[
   },
   {
     "name": "Korsh O'hu Shrine",
+    "trial": "Korsh O'hu's Blessing",
+    "quest": "The Seven Heroines",
     "area": "Wasteland",
+    "blessing": true,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -970,7 +1087,10 @@ const shrine_definitions=[
   },
   {
     "name": "Misae Suma Shrine",
+    "trial": "Misae Suma's Blessing",
+    "quest": "The Perfect Drink",
     "area": "Wasteland",
+    "blessing": true,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -983,7 +1103,10 @@ const shrine_definitions=[
   },
   {
     "name": "Raqa Zunzo Shrine",
+    "trial": "Raqa Zunzo's Blessing",
+    "quest": "The Undefeated Champ",
     "area": "Wasteland",
+    "blessing": true,
     "hint_required": true,
     "requirement_sets": [
       [
@@ -999,7 +1122,10 @@ const shrine_definitions=[
   },
   {
     "name": "Suma Sahma Shrine",
+    "trial": "Suma Sahma's Blessing",
+    "quest": "Secret of the Snowy Peaks",
     "area": "Wasteland",
+    "blessing": true,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -1011,7 +1137,10 @@ const shrine_definitions=[
   },
   {
     "name": "Tho Kayu Shrine",
+    "trial": "Tho Kayu's Blessing",
+    "quest": null,
     "area": "Wasteland",
+    "blessing": true,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -1042,7 +1171,10 @@ const shrine_definitions=[
   },
   {
     "name": "Joloo Nah Shrine",
+    "trial": "Joloo Nah Apparatus",
+    "quest": "Test of Will",
     "area": "Gerudo Highlands",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -1055,7 +1187,10 @@ const shrine_definitions=[
   },
   {
     "name": "Keeha Yoog Shrine",
+    "trial": "Keeha Yoog's Blessing",
+    "quest": "Cliffside Etchings",
     "area": "Gerudo Highlands",
+    "blessing": true,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -1068,7 +1203,10 @@ const shrine_definitions=[
   },
   {
     "name": "Kema Kosassa Shrine",
+    "trial": "A Major Test of Strength",
+    "quest": null,
     "area": "Gerudo Highlands",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -1089,7 +1227,10 @@ const shrine_definitions=[
   },
   {
     "name": "Kuh Takkar Shrine",
+    "trial": "Melting Ice Hazard",
+    "quest": null,
     "area": "Gerudo Highlands",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -1125,7 +1266,10 @@ const shrine_definitions=[
   },
   {
     "name": "Sasa Kai Shrine",
+    "trial": "A Modest Test of Strength",
+    "quest": "Sign of the Shadow",
     "area": "Gerudo Highlands",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -1154,7 +1298,10 @@ const shrine_definitions=[
   },
   {
     "name": "Sho Dantu Shrine",
+    "trial": "Two Bombs",
+    "quest": null,
     "area": "Gerudo Highlands",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -1166,7 +1313,10 @@ const shrine_definitions=[
   },
   {
     "name": "Dah Hesho Shrine",
+    "trial": "A Minor Test of Strength",
+    "quest": null,
     "area": "Akkala",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -1184,7 +1334,10 @@ const shrine_definitions=[
   },
   {
     "name": "Katosa Aug Shrine",
+    "trial": "Katosa Aug Apparatus",
+    "quest": null,
     "area": "Akkala",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [],
     "lat": 2730,
@@ -1192,7 +1345,10 @@ const shrine_definitions=[
   },
   {
     "name": "Ke'nai Shakah Shrine",
+    "trial": "A Modest Test of Strength",
+    "quest": null,
     "area": "Akkala",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -1246,7 +1402,10 @@ const shrine_definitions=[
   },
   {
     "name": "Ritaag Zumo Shrine",
+    "trial": "Ritaag Zumo's Blessing",
+    "quest": "Into the Vortex",
     "area": "Akkala",
+    "blessing": true,
     "hint_required": false,
     "requirement_sets": [],
     "lat": 2128,
@@ -1254,7 +1413,10 @@ const shrine_definitions=[
   },
   {
     "name": "Tu Ka'loh Shrine",
+    "trial": "Tu Ka'loh's Blessing",
+    "quest": "Trial of the Labyrinth",
     "area": "Akkala",
+    "blessing": true,
     "hint_required": false,
     "requirement_sets": [],
     "lat": 3710,
@@ -1262,7 +1424,10 @@ const shrine_definitions=[
   },
   {
     "name": "Tutsuwa Nima Shrine",
+    "trial": "A Major Test of Strength",
+    "quest": "The Spring of Power",
     "area": "Akkala",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -1346,7 +1511,10 @@ const shrine_definitions=[
   },
   {
     "name": "Ze Kasho Shrine",
+    "trial": "Ze Kasho Apparatus",
+    "quest": null,
     "area": "Akkala",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -1393,7 +1561,10 @@ const shrine_definitions=[
   },
   {
     "name": "Zuna Kai Shrine",
+    "trial": "Zuna Kai's Blessing",
+    "quest": "The Skull's Eye",
     "area": "Akkala",
+    "blessing": true,
     "hint_required": false,
     "requirement_sets": [],
     "lat": 3420,
@@ -1401,7 +1572,10 @@ const shrine_definitions=[
   },
   {
     "name": "Daqa Koh Shrine",
+    "trial": "Stalled Flight",
+    "quest": null,
     "area": "Eldin",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -1414,7 +1588,10 @@ const shrine_definitions=[
   },
   {
     "name": "Gorae Torr Shrine",
+    "trial": "Gorae Torr's Blessing",
+    "quest": "The Gut Check Challenge",
     "area": "Eldin",
+    "blessing": true,
     "hint_required": false,
     "requirement_sets": [],
     "lat": 3457,
@@ -1422,7 +1599,10 @@ const shrine_definitions=[
   },
   {
     "name": "Kayra Mah Shrine",
+    "trial": "Greedy Hill",
+    "quest": "A Brother's Roast",
     "area": "Eldin",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -1434,7 +1614,10 @@ const shrine_definitions=[
   },
   {
     "name": "Mo'a Keet Shrine",
+    "trial": "Metal Makes a Path",
+    "quest": null,
     "area": "Eldin",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -1446,7 +1629,10 @@ const shrine_definitions=[
   },
   {
     "name": "Qua Raym Shrine",
+    "trial": "A Balanced Approach",
+    "quest": null,
     "area": "Eldin",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -1476,7 +1662,10 @@ const shrine_definitions=[
   },
   {
     "name": "Sah Dahaj Shrine",
+    "trial": "Power of Fire",
+    "quest": null,
     "area": "Eldin",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -1500,7 +1689,10 @@ const shrine_definitions=[
   },
   {
     "name": "Shae Mo'sah Shrine",
+    "trial": "Swinging Flames",
+    "quest": "False",
     "area": "Eldin",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -1524,7 +1716,10 @@ const shrine_definitions=[
   },
   {
     "name": "Shora Hah Shrine",
+    "trial": "Blue Flame",
+    "quest": null,
     "area": "Eldin",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -1568,7 +1763,10 @@ const shrine_definitions=[
   },
   {
     "name": "Tah Muhl Shrine",
+    "trial": "Passing the Flame",
+    "quest": "A Landscape of a Stable",
     "area": "Eldin",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -1601,7 +1799,10 @@ const shrine_definitions=[
   },
   {
     "name": "Daag Chokah Shrine",
+    "trial": "Daag Chokah's Blessing",
+    "quest": "The Lost Pilgrimage",
     "area": "Woodland",
+    "blessing": true,
     "hint_required": false,
     "requirement_sets": [],
     "lat": 2459,
@@ -1609,7 +1810,10 @@ const shrine_definitions=[
   },
   {
     "name": "Keo Ruug Shrine",
+    "trial": "Fateful Stars",
+    "quest": null,
     "area": "Woodland",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [],
     "lat": 2169,
@@ -1617,7 +1821,10 @@ const shrine_definitions=[
   },
   {
     "name": "Ketoh Wawai Shrine",
+    "trial": "Ketoh Wawai's Blessing",
+    "quest": "Shrouded Shrine",
     "area": "Woodland",
+    "blessing": true,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -1635,7 +1842,10 @@ const shrine_definitions=[
   },
   {
     "name": "Kuhn Sidajj Shrine",
+    "trial": "Kuh Sidajj's Blessing",
+    "quest": "Trial of Second Sight",
     "area": "Woodland",
+    "blessing": true,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -1648,7 +1858,10 @@ const shrine_definitions=[
   },
   {
     "name": "Maag Halan Shrine",
+    "trial": "Maag Halan's Blessing",
+    "quest": "The Test of Wood",
     "area": "Woodland",
+    "blessing": true,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -1662,7 +1875,10 @@ const shrine_definitions=[
   },
   {
     "name": "Mirro Shaz Shrine",
+    "trial": "Tempered Power",
+    "quest": null,
     "area": "Woodland",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -1683,7 +1899,10 @@ const shrine_definitions=[
   },
   {
     "name": "Monya Toma Shrine",
+    "trial": "Drawing Parabolas",
+    "quest": null,
     "area": "Woodland",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -1712,7 +1931,10 @@ const shrine_definitions=[
   },
   {
     "name": "Rona Kachta Shrine",
+    "trial": "Rona Kachta's Blessing",
+    "quest": null,
     "area": "Woodland",
+    "blessing": true,
     "hint_required": false,
     "requirement_sets": [],
     "lat": 2662,
@@ -1720,7 +1942,10 @@ const shrine_definitions=[
   },
   {
     "name": "Dunba Taag Shrine",
+    "trial": "Build and Release",
+    "quest": null,
     "area": "Hebra",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -1746,7 +1971,10 @@ const shrine_definitions=[
   },
   {
     "name": "Gee Ha'rah Shrine",
+    "trial": "Tandem",
+    "quest": null,
     "area": "Hebra",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -1785,7 +2013,10 @@ const shrine_definitions=[
   },
   {
     "name": "Goma Asaagh Shrine",
+    "trial": "A Major Test of Strength",
+    "quest": null,
     "area": "Hebra",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -1806,7 +2037,10 @@ const shrine_definitions=[
   },
   {
     "name": "Hia Miu Shrine",
+    "trial": "A Major Test of Strength",
+    "quest": null,
     "area": "Hebra",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -1827,7 +2061,10 @@ const shrine_definitions=[
   },
   {
     "name": "Lanno Kooh Shrine",
+    "trial": "Lanno Kooh's Blessing",
+    "quest": null,
     "area": "Hebra",
+    "blessing": true,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -1839,7 +2076,10 @@ const shrine_definitions=[
   },
   {
     "name": "Maka Rah Shrine",
+    "trial": "Steady Thy Heart",
+    "quest": null,
     "area": "Hebra",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -1926,7 +2166,10 @@ const shrine_definitions=[
   },
   {
     "name": "Mozo Shenno Shrine",
+    "trial": "A Major Test of Strength",
+    "quest": "The Bird in the Mountains",
     "area": "Hebra",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -1947,7 +2190,10 @@ const shrine_definitions=[
   },
   {
     "name": "Qaza Tokki Shrine",
+    "trial": "Qaza Tokki's Blessing",
+    "quest": "Trial on the Cliff",
     "area": "Hebra",
+    "blessing": true,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -1959,7 +2205,10 @@ const shrine_definitions=[
   },
   {
     "name": "Rin Oyaa Shrine",
+    "trial": "Directing the Wind",
+    "quest": null,
     "area": "Hebra",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -1976,7 +2225,10 @@ const shrine_definitions=[
   },
   {
     "name": "Rok Uwog Shrine",
+    "trial": "Power of Reach",
+    "quest": null,
     "area": "Hebra",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -2023,7 +2275,10 @@ const shrine_definitions=[
   },
   {
     "name": "Sha Gehma Shrine",
+    "trial": "Shift and Lock",
+    "quest": null,
     "area": "Hebra",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -2047,7 +2302,10 @@ const shrine_definitions=[
   },
   {
     "name": "Shada Naw Shrine",
+    "trial": "Red Giveaway",
+    "quest": null,
     "area": "Hebra",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -2075,7 +2333,10 @@ const shrine_definitions=[
   },
   {
     "name": "To Quomo Shrine",
+    "trial": "To Quomo's Blessing",
+    "quest": null,
     "area": "Hebra",
+    "blessing": true,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -2088,7 +2349,10 @@ const shrine_definitions=[
   },
   {
     "name": "Kah Yah Shrine",
+    "trial": "Quick Thinking",
+    "quest": "A Fragmented Monument",
     "area": "Faron",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -2106,7 +2370,10 @@ const shrine_definitions=[
   },
   {
     "name": "Korgu Chideh Shrine",
+    "trial": "Korgu Chideh's Blessing",
+    "quest": "Stranded on Eventide",
     "area": "Faron",
+    "blessing": true,
     "hint_required": true,
     "requirement_sets": [
       [
@@ -2165,7 +2432,10 @@ const shrine_definitions=[
   },
   {
     "name": "Muwo Jeem Shrine",
+    "trial": "A Modest Test of Strength",
+    "quest": null,
     "area": "Faron",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -2183,7 +2453,10 @@ const shrine_definitions=[
   },
   {
     "name": "Qukah Nata Shrine",
+    "trial": "Qukah Nata's Blessing",
+    "quest": "A Song of Storms",
     "area": "Faron",
+    "blessing": true,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -2204,7 +2477,10 @@ const shrine_definitions=[
   },
   {
     "name": "Shai Utoh Shrine",
+    "trial": "Halt the Tilt",
+    "quest": null,
     "area": "Faron",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -2229,7 +2505,10 @@ const shrine_definitions=[
   },
   {
     "name": "Shoda Sah Shrine",
+    "trial": "Impeccable Timing",
+    "quest": null,
     "area": "Faron",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -2267,7 +2546,10 @@ const shrine_definitions=[
   },
   {
     "name": "Tawa Jinn Shrine",
+    "trial": "Tawa Jinn's Blessing",
+    "quest": "The Three Giant Brothers",
     "area": "Faron",
+    "blessing": true,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -2285,7 +2567,10 @@ const shrine_definitions=[
   },
   {
     "name": "Yah Rin Shrine",
+    "trial": "A Weighty Decision",
+    "quest": null,
     "area": "Faron",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -2297,7 +2582,10 @@ const shrine_definitions=[
   },
   {
     "name": "Ishto Soh Shrine",
+    "trial": "Bravery's Grasp",
+    "quest": null,
     "area": "Lake Hylia",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [],
     "lat": -3565,
@@ -2305,7 +2593,10 @@ const shrine_definitions=[
   },
   {
     "name": "Ka'o Makagh Shrine",
+    "trial": "Metal Doors Open the Way",
+    "quest": null,
     "area": "Lake Hylia",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -2327,7 +2618,10 @@ const shrine_definitions=[
   },
   {
     "name": "Pumaag Nitae Shrine",
+    "trial": "A Minor Test of Strength",
+    "quest": null,
     "area": "Lake Hylia",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -2345,7 +2639,10 @@ const shrine_definitions=[
   },
   {
     "name": "Shae Katha Shrine",
+    "trial": "Shae Katha's Blessing",
+    "quest": "The Serpent's Jaws",
     "area": "Lake Hylia",
+    "blessing": true,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -2374,7 +2671,10 @@ const shrine_definitions=[
   },
   {
     "name": "Shoqa Tatone Shrine",
+    "trial": "A Modest Test of Strength",
+    "quest": "Guardian Slideshow",
     "area": "Lake Hylia",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -2392,7 +2692,10 @@ const shrine_definitions=[
   },
   {
     "name": "Ya Naga Shrine",
+    "trial": "Shatter the Heavens",
+    "quest": null,
     "area": "Lake Hylia",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -2404,7 +2707,10 @@ const shrine_definitions=[
   },
   {
     "name": "Dah Kaso Shrine",
+    "trial": "A Minor Test of Strength",
+    "quest": null,
     "area": "Hyrule Field",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -2422,7 +2728,10 @@ const shrine_definitions=[
   },
   {
     "name": "Kaam Ya'tak Shrine",
+    "trial": "Test of Power",
+    "quest": null,
     "area": "Hyrule Field",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -2485,7 +2794,10 @@ const shrine_definitions=[
   },
   {
     "name": "Katah Chuki Shrine",
+    "trial": "A Minor Test of Strength",
+    "quest": null,
     "area": "Hyrule Field",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -2503,7 +2815,10 @@ const shrine_definitions=[
   },
   {
     "name": "Namika Ozz Shrine",
+    "trial": "A Modest Test of Strength",
+    "quest": null,
     "area": "Hyrule Field",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -2541,7 +2856,10 @@ const shrine_definitions=[
   },
   {
     "name": "Noya Neha Shrine",
+    "trial": "A Minor Test of Strength",
+    "quest": null,
     "area": "Hyrule Field",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -2565,7 +2883,10 @@ const shrine_definitions=[
   },
   {
     "name": "Rota Ooh Shrine",
+    "trial": "Passing of the Gates",
+    "quest": null,
     "area": "Hyrule Field",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -2599,7 +2920,10 @@ const shrine_definitions=[
   },
   {
     "name": "Saas Ko'sah Shrine",
+    "trial": "A Major Test of Strength",
+    "quest": null,
     "area": "Hyrule Field",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
@@ -2617,7 +2941,10 @@ const shrine_definitions=[
   },
   {
     "name": "Wahgo Katta Shrine",
+    "trial": "Metal Connections",
+    "quest": null,
     "area": "Hyrule Field",
+    "blessing": false,
     "hint_required": false,
     "requirement_sets": [
       [
