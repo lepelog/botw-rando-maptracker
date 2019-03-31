@@ -75,26 +75,6 @@ const shrine_definitions=[
     "hint_required": true,
     "requirement_sets": [
       [
-        "Bow",
-        "Arrows"
-      ],
-      [
-        "Bow",
-        "FireArrows"
-      ],
-      [
-        "Bow",
-        "IceArrows"
-      ],
-      [
-        "Bow",
-        "ShockArrows"
-      ],
-      [
-        "Bow",
-        "BombArrows"
-      ],
-      [
         "OneHandedWeapons"
       ],
       [
@@ -192,12 +172,8 @@ const shrine_definitions=[
     "hint_required": false,
     "requirement_sets": [
       [
-        "OneHandedWeapons"
-      ],
-      [
-        "TwoHandedWeapons"
-      ],
-      [
+        "OneHandedWeapons",
+        "TwoHandedWeapons",
         "Spear"
       ]
     ],
@@ -907,12 +883,8 @@ const shrine_definitions=[
     "hint_required": false,
     "requirement_sets": [
       [
-        "OneHandedWeapons"
-      ],
-      [
-        "TwoHandedWeapons"
-      ],
-      [
+        "OneHandedWeapons",
+        "TwoHandedWeapons",
         "Spear"
       ]
     ],
@@ -1008,7 +980,29 @@ const shrine_definitions=[
     "hint_required": false,
     "requirement_sets": [
       [
-        "Stasis"
+        "Stasis",
+        "Bow",
+        "Arrows"
+      ],
+      [
+        "Stasis",
+        "Bow",
+        "FireArrows"
+      ],
+      [
+        "Stasis",
+        "Bow",
+        "IceArrows"
+      ],
+      [
+        "Stasis",
+        "Bow",
+        "ShockArrows"
+      ],
+      [
+        "Stasis",
+        "Bow",
+        "BombArrows"
       ]
     ],
     "lat": -2423,
@@ -1060,11 +1054,13 @@ const shrine_definitions=[
     "hint_required": false,
     "requirement_sets": [
       [
-        "Magnesis"
+        "Magnesis",
+        "Shield"
       ],
       [
         "Bow",
-        "ShockArrows"
+        "ShockArrows",
+        "Shield"
       ]
     ],
     "lat": -1968,
@@ -1211,14 +1207,8 @@ const shrine_definitions=[
     "requirement_sets": [
       [
         "RitoSet",
-        "OneHandedWeapons"
-      ],
-      [
-        "RitoSet",
-        "TwoHandedWeapons"
-      ],
-      [
-        "RitoSet",
+        "OneHandedWeapons",
+        "TwoHandedWeapons",
         "Spear"
       ]
     ],
@@ -1274,23 +1264,93 @@ const shrine_definitions=[
     "requirement_sets": [
       [
         "Bow",
-        "Arrows"
+        "Arrows",
+        "OneHandedWeapons",
+        "TwoHandedWeapons"
       ],
       [
         "Bow",
-        "FireArrows"
+        "Arrows",
+        "OneHandedWeapons",
+        "Spear"
       ],
       [
         "Bow",
-        "IceArrows"
+        "Arrows",
+        "TwoHandedWeapons",
+        "Spear"
       ],
       [
         "Bow",
-        "ShockArrows"
+        "FireArrows",
+        "OneHandedWeapons",
+        "TwoHandedWeapons"
       ],
       [
         "Bow",
-        "BombArrows"
+        "FireArrows",
+        "OneHandedWeapons",
+        "Spear"
+      ],
+      [
+        "Bow",
+        "FireArrows",
+        "TwoHandedWeapons",
+        "Spear"
+      ],
+      [
+        "Bow",
+        "IceArrows",
+        "OneHandedWeapons",
+        "TwoHandedWeapons"
+      ],
+      [
+        "Bow",
+        "IceArrows",
+        "OneHandedWeapons",
+        "Spear"
+      ],
+      [
+        "Bow",
+        "IceArrows",
+        "TwoHandedWeapons",
+        "Spear"
+      ],
+      [
+        "Bow",
+        "ShockArrows",
+        "OneHandedWeapons",
+        "TwoHandedWeapons"
+      ],
+      [
+        "Bow",
+        "ShockArrows",
+        "OneHandedWeapons",
+        "Spear"
+      ],
+      [
+        "Bow",
+        "ShockArrows",
+        "TwoHandedWeapons",
+        "Spear"
+      ],
+      [
+        "Bow",
+        "BombArrows",
+        "OneHandedWeapons",
+        "TwoHandedWeapons"
+      ],
+      [
+        "Bow",
+        "BombArrows",
+        "OneHandedWeapons",
+        "Spear"
+      ],
+      [
+        "Bow",
+        "BombArrows",
+        "TwoHandedWeapons",
+        "Spear"
       ]
     ],
     "lat": -1953,
@@ -1353,45 +1413,45 @@ const shrine_definitions=[
     "requirement_sets": [
       [
         "Bombs",
-        "Bow",
-        "Arrows"
-      ],
-      [
-        "Bombs",
-        "Bow",
-        "FireArrows"
-      ],
-      [
-        "Bombs",
-        "Bow",
-        "IceArrows"
-      ],
-      [
-        "Bombs",
-        "Bow",
-        "ShockArrows"
-      ],
-      [
-        "Bombs",
-        "Bow",
-        "BombArrows"
-      ],
-      [
-        "Bombs",
-        "OneHandedWeapons"
-      ],
-      [
-        "Bombs",
+        "OneHandedWeapons",
         "TwoHandedWeapons"
       ],
       [
         "Bombs",
+        "OneHandedWeapons",
+        "Spear"
+      ],
+      [
+        "Bombs",
+        "TwoHandedWeapons",
         "Spear"
       ],
       [
         "Bow",
         "ShockArrows",
         "BombArrows",
+        "OneHandedWeapons",
+        "TwoHandedWeapons",
+        "Cryonis",
+        "Magnesis",
+        "Stasis"
+      ],
+      [
+        "Bow",
+        "ShockArrows",
+        "BombArrows",
+        "OneHandedWeapons",
+        "Spear",
+        "Cryonis",
+        "Magnesis",
+        "Stasis"
+      ],
+      [
+        "Bow",
+        "ShockArrows",
+        "BombArrows",
+        "TwoHandedWeapons",
+        "Spear",
         "Cryonis",
         "Magnesis",
         "Stasis"
@@ -1407,7 +1467,11 @@ const shrine_definitions=[
     "area": "Akkala",
     "blessing": true,
     "hint_required": false,
-    "requirement_sets": [],
+    "requirement_sets": [
+      [
+        "Cryonis"
+      ]
+    ],
     "lat": 2128,
     "long": 4525
   },
@@ -1418,7 +1482,11 @@ const shrine_definitions=[
     "area": "Akkala",
     "blessing": true,
     "hint_required": false,
-    "requirement_sets": [],
+    "requirement_sets": [
+      [
+        "Magnesis"
+      ]
+    ],
     "lat": 3710,
     "long": 4655
   },
@@ -1433,76 +1501,36 @@ const shrine_definitions=[
       [
         "Bow",
         "Arrows",
-        "OneHandedWeapons"
-      ],
-      [
-        "Bow",
-        "FireArrows",
-        "OneHandedWeapons"
-      ],
-      [
-        "Bow",
-        "IceArrows",
-        "OneHandedWeapons"
-      ],
-      [
-        "Bow",
-        "ShockArrows",
-        "OneHandedWeapons"
-      ],
-      [
-        "Bow",
-        "BombArrows",
-        "OneHandedWeapons"
-      ],
-      [
-        "Bow",
-        "Arrows",
-        "TwoHandedWeapons"
-      ],
-      [
-        "Bow",
-        "FireArrows",
-        "TwoHandedWeapons"
-      ],
-      [
-        "Bow",
-        "IceArrows",
-        "TwoHandedWeapons"
-      ],
-      [
-        "Bow",
-        "ShockArrows",
-        "TwoHandedWeapons"
-      ],
-      [
-        "Bow",
-        "BombArrows",
-        "TwoHandedWeapons"
-      ],
-      [
-        "Bow",
-        "Arrows",
+        "OneHandedWeapons",
+        "TwoHandedWeapons",
         "Spear"
       ],
       [
         "Bow",
         "FireArrows",
+        "OneHandedWeapons",
+        "TwoHandedWeapons",
         "Spear"
       ],
       [
         "Bow",
         "IceArrows",
+        "OneHandedWeapons",
+        "TwoHandedWeapons",
         "Spear"
       ],
       [
         "Bow",
         "ShockArrows",
+        "OneHandedWeapons",
+        "TwoHandedWeapons",
         "Spear"
       ],
       [
         "Bow",
         "BombArrows",
+        "OneHandedWeapons",
+        "TwoHandedWeapons",
         "Spear"
       ]
     ],
@@ -2021,14 +2049,8 @@ const shrine_definitions=[
     "requirement_sets": [
       [
         "RitoSet",
-        "OneHandedWeapons"
-      ],
-      [
-        "RitoSet",
-        "TwoHandedWeapons"
-      ],
-      [
-        "RitoSet",
+        "OneHandedWeapons",
+        "TwoHandedWeapons",
         "Spear"
       ]
     ],
@@ -2045,14 +2067,8 @@ const shrine_definitions=[
     "requirement_sets": [
       [
         "RitoSet",
-        "OneHandedWeapons"
-      ],
-      [
-        "RitoSet",
-        "TwoHandedWeapons"
-      ],
-      [
-        "RitoSet",
+        "OneHandedWeapons",
+        "TwoHandedWeapons",
         "Spear"
       ]
     ],
@@ -2174,14 +2190,8 @@ const shrine_definitions=[
     "requirement_sets": [
       [
         "RitoSet",
-        "OneHandedWeapons"
-      ],
-      [
-        "RitoSet",
-        "TwoHandedWeapons"
-      ],
-      [
-        "RitoSet",
+        "OneHandedWeapons",
+        "TwoHandedWeapons",
         "Spear"
       ]
     ],
@@ -2232,36 +2242,19 @@ const shrine_definitions=[
     "hint_required": false,
     "requirement_sets": [
       [
-        "Bombs",
-        "Magnesis",
-        "RitoSet"
-      ],
-      [
         "Magnesis",
         "Bow",
         "Arrows",
         "RitoSet"
       ],
       [
-        "Magnesis",
         "Bow",
         "FireArrows",
         "RitoSet"
       ],
       [
-        "Magnesis",
         "Bow",
         "BombArrows",
-        "RitoSet"
-      ],
-      [
-        "Magnesis",
-        "OneHandedWeapons",
-        "RitoSet"
-      ],
-      [
-        "Magnesis",
-        "TwoHandedWeapons",
         "RitoSet"
       ],
       [
@@ -2283,17 +2276,6 @@ const shrine_definitions=[
     "requirement_sets": [
       [
         "Magnesis",
-        "Stasis",
-        "RitoSet"
-      ],
-      [
-        "Magnesis",
-        "Stasis",
-        "RitoSet"
-      ],
-      [
-        "Magnesis",
-        "Stasis",
         "RitoSet"
       ]
     ],
@@ -2439,13 +2421,16 @@ const shrine_definitions=[
     "hint_required": false,
     "requirement_sets": [
       [
-        "OneHandedWeapons"
-      ],
-      [
+        "OneHandedWeapons",
         "TwoHandedWeapons"
       ],
       [
+        "TwoHandedWeapons",
         "Spear"
+      ],
+      [
+        "Spear",
+        "OneHandedWeapons"
       ]
     ],
     "lat": -3308,
@@ -2678,12 +2663,15 @@ const shrine_definitions=[
     "hint_required": false,
     "requirement_sets": [
       [
-        "OneHandedWeapons"
-      ],
-      [
+        "OneHandedWeapons",
         "TwoHandedWeapons"
       ],
       [
+        "OneHandedWeapons",
+        "Spear"
+      ],
+      [
+        "TwoHandedWeapons",
         "Spear"
       ]
     ],
@@ -2822,32 +2810,15 @@ const shrine_definitions=[
     "hint_required": false,
     "requirement_sets": [
       [
-        "Bow",
-        "Arrows"
-      ],
-      [
-        "Bow",
-        "FireArrows"
-      ],
-      [
-        "Bow",
-        "IceArrows"
-      ],
-      [
-        "Bow",
-        "ShockArrows"
-      ],
-      [
-        "Bow",
-        "BombArrows"
-      ],
-      [
-        "OneHandedWeapons"
-      ],
-      [
+        "OneHandedWeapons",
         "TwoHandedWeapons"
       ],
       [
+        "OneHandedWeapons",
+        "Spear"
+      ],
+      [
+        "TwoHandedWeapons",
         "Spear"
       ]
     ],
@@ -2875,7 +2846,13 @@ const shrine_definitions=[
       ],
       [
         "Bow",
-        "BombArrows"
+        "BombArrows",
+        "OneHandedWeapons"
+      ],
+      [
+        "Bow",
+        "BombArrows",
+        "Spear"
       ]
     ],
     "lat": 624,
@@ -2927,12 +2904,8 @@ const shrine_definitions=[
     "hint_required": false,
     "requirement_sets": [
       [
-        "OneHandedWeapons"
-      ],
-      [
-        "TwoHandedWeapons"
-      ],
-      [
+        "OneHandedWeapons",
+        "TwoHandedWeapons",
         "Spear"
       ]
     ],
