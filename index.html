@@ -122,10 +122,51 @@
                 <button value="AncientArrows">Ancient Arrows</button>
                 <button value="LightArrows">Light Arrows</button>
             </div>
+            <div class="flex-seperator">
+                <div id="shrine-display-container" style="display: none">
+                    <h1 class="shrine-name">Shrine Name</h1>
+                    <div class="shrine-trial">Shrine Trial</div>
+                    <div>Item:<select class="shrine-item">
+                        <option value="null">Select...</option>
+                        <option value="Dust">Dust</option>
+                        <option value="Bombs">Bombs</option>
+                        <option value="Magnesis">Magnesis</option>
+                        <option value="Stasis">Stasis</option>
+                        <option value="Cryonis">Cryonis</option>
+                        <option value="LegEquipment">Leg Equipment</option>
+                        <option value="BodyEquipment">Body Equipment</option>
+                        <option value="HeadEquipment">Head Equipment</option>
+                        <option value="RitoSet">Rito Set</option>
+                        <option value="FireproofSet">Fireproof Set</option>
+                        <option value="ZoraSet">Zora Set</option>
+                        <option value="GerudoSet">Gerudo Set</option>
+                        <option value="OneHandedWeapons">1 Handed Weapons</option>
+                        <option value="TwoHandedWeapons">2 Handed Weapons</option>
+                        <option value="Spear">Spear</option>
+                        <option value="Shield">Shield</option>
+                        <option value="Bow">Bow</option>
+                        <option value="Arrows">Arrows</option>
+                        <option value="FireArrows">Fire Arrows</option>
+                        <option value="IceArrows">Ice Arrows</option>
+                        <option value="ShockArrows">Shock Arrows</option>
+                        <option value="BombArrows">Bomb Arrows</option>
+                        <option value="AncientArrows">Ancient Arrows</option>
+                        <option value="LightArrows">Light Arrows</option>
+                    </select></div>
+                </div>
+            </div>
         </div>
         <div id="map-container"></div>
     </body>
     <script>
+
+        var displayedShrine = null;
+        // selectors:
+        var $shrineDisplayContainer = $('#shrine-display-container');
+        var $shrineNameContainer = $('#shrine-display-container .shrine-name');
+        var $shrineTrialContainer = $('#shrine-display-container .shrine-trial');
+        var $shrineItemSelect = $('#shrine-display-container .shrine-item');
+
         var map = L.map('map-container', {
             preferCanvas: true,
             minZoom: -4,
@@ -178,9 +219,12 @@
         }
 
         shrine_definitions.forEach((shrine)=>{
+            shrine.item = "null";
             shrine.marker = L.marker([shrine.lat, shrine.long], {icon : shrineIconInactive})
                 .bindPopup(shrineToPopup(shrine))
+                .on('click', showIndividualShrine)
                 .addTo(map);
+            shrine.marker.shrine = shrine;
         });
 
         function updateShrines() {
@@ -190,7 +234,8 @@
             var obtainedItems = [];
             $('#item-container button.checked').each((index, elem)=>obtainedItems.push($(elem).val()));
             shrine_definitions.forEach(shrine => {
-                if (barrenAreas.find(a=>a==shrine.area)) {
+                // show barren areas and completed shrines as barren
+                if (barrenAreas.find(a=>a==shrine.area) || shrine.item != "null") {
                     shrine.marker.setIcon(shrineIconBarren);
                     return;
                 }
@@ -207,6 +252,23 @@
             });
         }
 
+        // Show a single shrine on the sidebar
+        function showIndividualShrine(event) {
+            displayedShrine = event.target.shrine;
+            updateIndividualShrine();
+        }
+
+        function updateIndividualShrine() {
+            if (displayedShrine) {
+                $shrineDisplayContainer.show();
+                $shrineNameContainer.text(displayedShrine.name);
+                $shrineTrialContainer.text(displayedShrine.trial);
+                $shrineItemSelect.val(displayedShrine.item);
+            } else {
+                $shrineDisplayContainer.hide();
+            }
+        }
+
         $('#item-container button').on('click', function(){
             if ($(this).hasClass('checked')) {
                 $(this).removeClass('checked');
@@ -218,6 +280,16 @@
         });
 
         $('select.barren-areas').on('change', updateShrines);
+        $shrineItemSelect.on('change',function() {
+            var $this = $(this);
+            displayedShrine.item = $this.val();
+            if (displayedShrine.item == "null") {
+                displayedShrine.marker.setIcon(shrineIconBarren);
+            } else {
+                // don't want to double the logic
+                updateShrines();
+            }
+        });
 
         updateShrines();
     </script>
