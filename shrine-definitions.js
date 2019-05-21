@@ -305,6 +305,9 @@ const shrine_definitions=[
       [
         "Bow",
         "BombArrows"
+      ],
+      [
+        "TwoHandedWeapons"
       ]
     ],
     "lat": -1687,
@@ -320,6 +323,7 @@ const shrine_definitions=[
     "requirement_sets": [
       [
         "Magnesis",
+        "Cryonis",
         "Spear"
       ]
     ],
@@ -395,49 +399,7 @@ const shrine_definitions=[
     "hint_required": false,
     "requirement_sets": [
       [
-        "Cryonis",
-        "Stasis",
-        "Bow",
-        "Arrows"
-      ],
-      [
-        "Cryonis",
-        "Stasis",
-        "Bow",
-        "FireArrows"
-      ],
-      [
-        "Cryonis",
-        "Stasis",
-        "Bow",
-        "IceArrows"
-      ],
-      [
-        "Cryonis",
-        "Stasis",
-        "Bow",
-        "ShockArrows"
-      ],
-      [
-        "Cryonis",
-        "Stasis",
-        "Bow",
-        "BombArrows"
-      ],
-      [
-        "Cryonis",
-        "Stasis",
-        "OneHandedWeapons"
-      ],
-      [
-        "Cryonis",
-        "Stasis",
-        "TwoHandedWeapons"
-      ],
-      [
-        "Cryonis",
-        "Stasis",
-        "Spear"
+        "Cryonis"
       ]
     ],
     "lat": 519,
@@ -549,9 +511,6 @@ const shrine_definitions=[
       [
         "Bow",
         "BombArrows"
-      ],
-      [
-        "TwoHandedWeapons"
       ]
     ],
     "lat": 1458,
@@ -1853,7 +1812,7 @@ const shrine_definitions=[
     "quest": "Shrouded Shrine",
     "area": "Woodland",
     "blessing": true,
-    "hint_required": false,
+    "hint_required": true,
     "requirement_sets": [
       [
         "OneHandedWeapons"
@@ -2455,6 +2414,9 @@ const shrine_definitions=[
       ],
       [
         "Bow"
+      ],
+      [
+        "Shield"
       ]
     ],
     "lat": -3285,
@@ -2538,12 +2500,8 @@ const shrine_definitions=[
     "hint_required": false,
     "requirement_sets": [
       [
-        "OneHandedWeapons"
-      ],
-      [
-        "TwoHandedWeapons"
-      ],
-      [
+        "OneHandedWeapons",
+        "TwoHandedWeapons",
         "Spear"
       ]
     ],
